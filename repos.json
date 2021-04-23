@@ -1,0 +1,14 @@
+[
+  {
+    "name": "rust",
+    "repository": "https://github.com/rust-lang/rust",
+    "local": "",
+    "status": ""
+  },
+  {
+    "name": "rustup",
+    "repository": "https://github.com/rust-lang/rustup",
+    "local": "",
+    "status": ""
+  }
+]

@@ -1,0 +1,18 @@
+[package]
+name = "reminder"
+version = "0.1.0"
+authors = ["SH1NK10KU"]
+description = "A reminder for checking latest release in specific repository on Github."
+repository = "https://github.com/SH1NK10KU/reminder"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+edition = "2018"
+
+[dependencies]
+async-std = "1.9.0"
+lazy_static = "1.4.0"
+regex = "1.4.6"
+reqwest = "0.11.3"
+serde = {version = "1.0.125", features = ["derive"] }
+serde_json = "1.0.64"
+tokio = { version = "1.5.0", features = ["full"] }
